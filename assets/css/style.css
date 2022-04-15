@@ -9,8 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
+  background: rgb(167, 207, 177);
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #272928;
 }
 
 a {
@@ -89,14 +90,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -927,7 +928,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  color: #040b14;
   font-size: 14px;
   position: fixed;
   left: 0;
@@ -943,7 +944,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
+  color: #040b14;
 }
 @media (max-width: 1199px) {
   #footer {
