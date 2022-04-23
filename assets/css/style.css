@@ -9,9 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: rgba(14, 107, 64, 0.349);
+  background: rgb(10, 26, 16);
   font-family: "Open Sans", sans-serif;
-  color: #272928;
+  color: #ffffff;
 }
 
 a {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #f5c423e7;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -90,14 +90,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: rgb(57, 189, 127);
+  color: rgb(21, 163, 97);
   text-decoration: none;
 }
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: rgb(8, 245, 134);
+  color: rgb(245, 190, 8);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #fdb838;
 }
 
 /* Mobile Navigation */
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #06703b;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -222,19 +222,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(4, 197, 100);
 }
 #hero p {
-  color: #fff;
+  color: rgb(255, 232, 24);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #fff;
+  color: rgb(255, 179, 15);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #fde617;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -274,7 +274,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #000000;
+  color: #fad11a;
 }
 .section-title h2::after {
   content: "";
@@ -282,7 +282,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #067221;
+  background: #ffeb3b;
   bottom: 0;
   left: 0;
 }
@@ -296,7 +296,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #000000;
+  color: #fadc32;
 }
 .about .content ul {
   list-style: none;
@@ -313,7 +313,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #facd38;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -406,12 +406,12 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #faa018;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #fafc89;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -420,12 +420,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fcd467;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #31945a;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -448,8 +448,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: rgb(230, 191, 21);
+  border: 2px solid #f9fc6f;
 }
 
 /*--------------------------------------------------------------
