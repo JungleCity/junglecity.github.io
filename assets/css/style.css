@@ -171,11 +171,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
+  font-size: 30px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #06703b;
-  color: #fff;
+  background-color: #fcb635;
+  color: rgb(38, 243, 31);
   width: 40px;
   height: 40px;
   display: inline-flex;
