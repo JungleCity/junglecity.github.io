@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: rgb(7, 17, 11);
+  background: rgb(5, 12, 8);
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #f5c423e7;
+  border: 8px solid #fdad00;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: rgb(245, 190, 8);
+  color: rgb(255, 166, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.2s;
   outline: none !important;
-  background-color: #fcb635;
+  background-color: #fcb635b7;
   color: rgb(38, 243, 31);
   width: 40px;
   height: 40px;
@@ -218,24 +218,25 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
+  margin: 0 0 40px 0;
+  font-size: 75px;
+  font-weight: 800;
+  font-style: italic;
   line-height: 56px;
-  color: rgb(4, 197, 100);
-  font-family: "Poppins", sans-serif;
+  color: rgb(7, 209, 84);
+  font-family: "Open Sans", sans-serif;
 }
 #hero p {
-  color: rgb(255, 232, 24);
+  color: rgb(255, 230, 0);
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: rgb(255, 179, 15);
-  padding-bottom: 1px;
-  letter-spacing: 1px;
+  color: rgb(255, 174, 0);
+  padding-bottom: 0px;
+  letter-spacing: 0px;
   border-bottom: 3px solid #fde617;
 }
 @media (min-width: 1024px) {
@@ -276,15 +277,15 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fad11a;
+  color: #ff9900;
 }
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
-  height: 3px;
-  background: #ffeb3b;
+  width: 70px;
+  height: 5px;
+  background: rgb(21, 163, 97);
   bottom: 0;
   left: 0;
 }
@@ -298,7 +299,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #fadc32;
+  color: rgb(21, 163, 97);
 }
 .about .content ul {
   list-style: none;
@@ -313,9 +314,9 @@ section {
   margin-right: 10px;
 }
 .about .content ul i {
-  font-size: 16px;
+  font-size: 20px;
   margin-right: 5px;
-  color: #facd38;
+  color: rgb(21, 163, 97);
   line-height: 0;
 }
 .about .content p:last-child {
@@ -401,19 +402,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Resume - TEAM
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #faa018;
+  color: rgb(21, 163, 97);
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #fafc89;
+  border-left: 2px solid rgb(21, 163, 97);
   position: relative;
 }
 .resume .resume-item h4 {
@@ -422,12 +423,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fcd467;
+  color: #ffee00;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #31945a;
+  background: rgb(21, 163, 97);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -450,8 +451,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: rgb(230, 191, 21);
-  border: 2px solid #f9fc6f;
+  background: rgb(255, 251, 0);
+  border: 4px solid rgb(21, 163, 97);
 }
 
 /*--------------------------------------------------------------
