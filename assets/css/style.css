@@ -231,11 +231,13 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255, 230, 0);
   margin-bottom: 50px;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 800;
+  font-style: italic;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
   color: rgb(255, 174, 0);
+  font-size: 25px;
   padding-bottom: 0px;
   letter-spacing: 0px;
   border-bottom: 2px solid #fde617;
