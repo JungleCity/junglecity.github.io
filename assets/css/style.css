@@ -1,17 +1,8 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-  background: rgb(5, 12, 8);
-  font-family: "Open Sans", sans-serif;
-  color: #ffffff;
+  background: rgb(0, 0, 0);
+  font-family: "Graduate", sans-serif;
+  color: #f7ad3e;
 }
 
 a {
@@ -25,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: Graduate, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -38,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0cd32da2;
+  background: #00fd2aa2;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -46,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: rgb(255, 182, 47);
+  color: rgb(255, 166, 0);
   line-height: 0;
 }
 .back-to-top:hover {
@@ -90,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: rgb(21, 163, 97);
+  color: rgb(0, 146, 102);
   text-decoration: none;
   font-family: "Lakki Reddy", cursive;
   font-size: 40px;
@@ -111,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .profile .social-links a:hover {
   background: #0cbb4fa2;
-  color: #fff;
+  color: rgb(0, 208, 255);
   text-decoration: none;
 }
 
@@ -147,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #a8b4ac;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -160,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 170, 255);
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
   color: #fdb838;
@@ -176,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.2s;
   outline: none !important;
-  background-color: #fa9420da;
+  background-color: #ffaa00da;
   color: rgb(20, 255, 11);
   width: 40px;
   height: 40px;
@@ -224,23 +215,24 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80px;
   font-weight: 800;
   line-height: 56px;
-  color: rgb(7, 209, 84);
+  color: rgb(0, 146, 102);
   font-family: "Lakki Reddy", cursive;
 }
 #hero p {
-  color: rgb(255, 230, 0);
+  color: rgb(255, 157, 0);
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: 800;
   font-style: italic;
-  font-family: "Poppins", sans-serif;
+  font-family: "Graduate", sans-serif;
 }
 #hero p span {
-  color: rgb(255, 174, 0);
+  color: rgb(255, 251, 0);
   font-size: 28px;
   padding-bottom: 0px;
   letter-spacing: 0px;
-  border-bottom: 2px solid #fde617;
+  border-top: 3px solid #ffb700;
+  border-bottom: 3px solid #ff9d00;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -280,7 +272,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 10px;
   position: relative;
-  color: #ff9900;
+  color: #00aeff;
   font-family: "Lakki Reddy", cursive;
 }
 .section-title h2::after {
@@ -289,7 +281,7 @@ section {
   display: block;
   width: 70px;
   height: 5px;
-  background: rgb(21, 163, 97);
+  background: rgb(0, 95, 146);
   bottom: 0;
   left: 0;
 }
@@ -427,7 +419,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #ffee00;
+  color: #868585;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -455,7 +447,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: rgb(255, 251, 0);
+  background: rgb(0, 0, 0);
   border: 4px solid rgb(21, 163, 97);
 }
 
@@ -465,7 +457,7 @@ section {
 .portfolio .content h3 {
   font-weight: 700;
   font-size: px;
-  color: rgb(214, 1, 1);
+  color: rgb(246, 45, 0);
 }
 .portfolio .content ul {
   list-style: none;
@@ -482,7 +474,7 @@ section {
 .portfolio .content ul i {
   font-size: 30px;
   margin-right: 5px;
-  color: rgb(255, 0, 0);
+  color: rgb(129, 0, 0);
   line-height: 0;
 }
 .portfolio .content p:last-child {
