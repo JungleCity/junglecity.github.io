@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #00fd2aa2;
+  background: #00ff99a2;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: rgb(0, 146, 102);
+  color: rgb(3, 156, 82);
   text-decoration: none;
   font-family: "Lakki Reddy", cursive;
   font-size: 40px;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: rgb(0, 170, 255);
+  color: rgb(67, 254, 176);
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
   color: #fdb838;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.2s;
   outline: none !important;
   background-color: #ffaa00da;
-  color: rgb(20, 255, 11);
+  color: rgb(2, 159, 86);
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80px;
   font-weight: 800;
   line-height: 56px;
-  color: rgb(0, 146, 102);
+  color: rgb(255, 157, 0);
   font-family: "Lakki Reddy", cursive;
 }
 #hero p {
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Graduate", sans-serif;
 }
 #hero p span {
-  color: rgb(255, 251, 0);
+  color: rgb(4, 205, 108);
   font-size: 28px;
   padding-bottom: 0px;
   letter-spacing: 0px;
@@ -272,7 +272,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 10px;
   position: relative;
-  color: #00aeff;
+  color: #ffaa00;
   font-family: "Lakki Reddy", cursive;
 }
 .section-title h2::after {
@@ -281,7 +281,7 @@ section {
   display: block;
   width: 70px;
   height: 5px;
-  background: rgb(0, 95, 146);
+  background: rgb(252, 248, 2);
   bottom: 0;
   left: 0;
 }
@@ -295,7 +295,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: rgb(21, 163, 97);
+  color: rgb(165, 165, 165);
 }
 .about .content ul {
   list-style: none;
@@ -312,7 +312,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   margin-right: 5px;
-  color: rgb(21, 163, 97);
+  color: rgb(134, 133, 133);
   line-height: 0;
 }
 .about .content p:last-child {
@@ -424,7 +424,7 @@ section {
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgb(21, 163, 97);
+  background: rgb(201, 100, 17);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
